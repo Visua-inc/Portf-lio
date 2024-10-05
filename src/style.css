@@ -6,6 +6,11 @@
 
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
   font-family: 'Arial', sans-serif;
   background-color: #ECEFF4;
   line-height: 1.6;
@@ -78,14 +83,14 @@ nav ul li a:hover {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+  grid-template-columns: repeat(3, 1fr); 
   gap: 20px; 
   justify-items: center;
   padding: 20px; 
 }
 
 .grid-item {
-  text-align: center; 
+  text-align: center;
 }
 
 .grid-item img {
@@ -100,16 +105,32 @@ nav ul li a:hover {
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   background: linear-gradient(to right, #1C7396, #5E6D7D ); 
   color: white;
   text-align: center;
   padding: 10px 0; 
   font-size: 12px;
+
+  a {
+    text-decoration: none;
+    color: #eceff4;
+  }
 }
 
 
 .social-links {
   margin: 5px 0;
+  display: flex;
+  flex-direction: row;
+  a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .social-button {
