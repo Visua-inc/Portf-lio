@@ -20,8 +20,8 @@ header {
   display: flex; 
   justify-content: space-between;
   align-items: center; 
-  padding: 20px; 
-  background: linear-gradient(to right, #1C7396, #5E6D7D); 
+  padding:10px 24px; 
+  background: linear-gradient(160deg, #23384d, #1C7396); 
   color: #ECEFF4; 
 }
 
@@ -65,7 +65,7 @@ nav ul li a:hover {
 .intro .perfil {
   width: 150px; 
   height: auto; 
-  border-radius: 50%;
+  border-radius: 0%;
   display: block; 
   margin: 0 auto; 
 }
@@ -110,7 +110,7 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(to right, #1C7396, #5E6D7D ); 
+  background: linear-gradient(160deg, #23384d, #1C7396); 
   color: white;
   text-align: center;
   padding: 10px 0; 
